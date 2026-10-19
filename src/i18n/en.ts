@@ -14,6 +14,8 @@ export const en = {
     retry: "Try again",
     loading: "Loading",
     undo: "Undo",
+    updateReady: "A new version of Mimi is ready.",
+    updateReload: "Reload",
     prototype: "Prototype · sample data",
     offline: "Showing saved data. Changes will sync when you're back online.",
     sessionExpired: "Your session has expired. Sign in again.",

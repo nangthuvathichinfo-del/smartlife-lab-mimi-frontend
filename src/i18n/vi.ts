@@ -8,6 +8,8 @@ export const vi: Messages = {
     retry: "Thử lại",
     loading: "Đang tải",
     undo: "Hoàn tác",
+    updateReady: "Mimi đã có phiên bản mới.",
+    updateReload: "Tải lại",
     prototype: "Bản thử nghiệm · dữ liệu mẫu",
     offline: "Đang xem bản đã lưu. Thay đổi sẽ đồng bộ khi có mạng.",
     sessionExpired: "Phiên đăng nhập đã hết, hãy đăng nhập lại.",

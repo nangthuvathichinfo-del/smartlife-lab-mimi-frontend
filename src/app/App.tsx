@@ -2,7 +2,7 @@ import { lazy, Suspense, useEffect, useRef } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { PersistQueryClientProvider } from "@tanstack/react-query-persist-client";
 import { configureApi, flushQueue } from "../api/client";
-import { UndoProvider } from "../components/AppShell";
+import { UndoProvider, UpdateBanner } from "../components/AppShell";
 import { AuthProvider, useAuth } from "../lib/auth";
 import { queryClient, queryPersister } from "./queryClient";
 import { Welcome } from "../screens/Welcome";
@@ -75,6 +75,7 @@ export function App() {
         <BrowserRouter>
           <UndoProvider>
             <Gate />
+            <UpdateBanner />
           </UndoProvider>
         </BrowserRouter>
       </AuthProvider>
